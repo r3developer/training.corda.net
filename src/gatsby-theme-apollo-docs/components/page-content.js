@@ -276,7 +276,6 @@ export default function PageContent(props, {data} ) {
           {props.children}
         </BodyContent>
         <EditLink>{slackLink}</EditLink>
-        <EditLink>{supportLink}</EditLink>
 
         <PageNav
           prevPage={props.pages[pageIndex - 1]}
