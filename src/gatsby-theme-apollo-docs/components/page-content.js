@@ -293,7 +293,6 @@ export default function PageContent(props, {data} ) {
           />
         )}
         {slackLink}
-        {supportLink}
       </Aside>
     </Wrapper>
   );
